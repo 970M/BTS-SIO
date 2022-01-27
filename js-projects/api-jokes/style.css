@@ -1,0 +1,11 @@
+* {
+    border: dotted 2px red;
+}
+
+#header {
+    background: aqua;
+}
+
+#content {
+    background: blueviolet;
+}

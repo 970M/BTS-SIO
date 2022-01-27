@@ -1,0 +1,28 @@
+2021-11-28-16:06;start;main()
+2021-11-28-16:06;start;register()
+2021-11-28-16:06;mot de passe trop faible;alice
+2021-11-28-16:06;password don't match;alice
+2021-11-28-16:06;add user;alice
+2021-11-28-16:06;registered;alice
+2021-11-28-16:06;stop;register()
+2021-11-28-16:06;stop;main()
+2021-11-28-16:12;start;main()
+2021-11-28-16:12;start;login()
+2021-11-28-16:12;not registered;bob
+2021-11-28-16:12;incorrect password;alice
+2021-11-28-16:12;logged In;alice
+2021-11-28-16:12;stop;login()
+2021-11-28-16:12;stop;main()
+2021-11-28-16:14;start;main()
+2021-11-28-16:17;start;main()
+2021-11-28-16:26;start;main()
+2021-11-28-16:29;start;main()
+2021-11-28-16:31;start;main()
+2021-11-28-16:32;start;main()
+2021-11-28-16:33;start;main()
+2021-11-28-16:42;start;main()
+2021-11-28-16:42;start;main()
+2021-11-28-16:43;start;main()
+2021-11-28-17:04;start;main()
+2021-11-28-17:07;start;main()
+2021-11-28-17:07;start;main()

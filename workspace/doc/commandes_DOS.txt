@@ -1,0 +1,79 @@
+CD Permet de se déplacer d'un répertoire à un autre. (ex : cd répertoire )
+CD \ Permet d’accéder à la racine d'un lecteur. (ex :c:\>cd \ )
+DIR Liste le contenu du répertoire courant. (ex : dir )
+MKDIR Création d'un dossier. (ex : mkdir toto )
+RMDIR Effacer un dossier. (ex : rmdir toto)
+COPY Copie des fichiers. (ex : copy toto.txt c:\toto.txt )
+XCOPY Copie des fichiers et des répertoires.(ex : xcopy toto.txt c:\toto.txt )
+DEL Effacer un fichier (ex : del c:\titi.txt )
+REN Renommer des fichiers (ex : ren toto.txt tata.txt)
+MOVE Déplace un fichier. (ex : move c:\titi.txt d:\)
+EDIT Lance un éditeur de texte sous MS-D (ex : edit toto.txt )
+MORE Visualiser le contenu d'un fichier texte (ex : more toto.txt )
+FORMAT Permet d'effacer le contenu d'un lecteur. (ex : format U: )
+CLS Efface l'écran actuel. (ex : cls
+FIND Recherche dans un fichier la ligne contenant une valeur.
+CMD Ouvre la fenêtre de commande DOS. (ex : cmd
+ECHO Affiche un message. (ex : echo salut )
+ECHO. Permet de sauter une ligne. (ex : echo.
+SORT Permet de trier une liste en fonction d'un critère. (ex : dir | cool )
+PRINT Imprime le fichier spécifié. (ex : print toto.txt )
+EXIT Ferme la fenêtre MS-DOS. (ex : exit
+TYPE Affiche un fichier texte.(ex : type titi.txt même utilité que more)
+FC Comparaison de fichiers.)
+ATTRIB Modifie les attributs d'un fichier (ex : attrib c:\test +a )
+CACLS Modifie les droits utilisateurs sur un fichier.
+CHDIR Affiche l’arborescence actuelle. (ex : c:\user> chdir)
+PING Effectue un test de connectivité sur une machine distante à utiliser avec une adresse IP. (ex : ping wikipédia.org)
+IPCONFIG Permet de voir votre configuration réseau, adresse IP, DNS, serveur DHCP... (ex : ipconfig ,ipconfig /all)
+NETSTAT Affiche leurs connexions active sur votre machine, port et protocole. (ex : NETSTAT)
+NET USE Connecte un lecteur réseau (ex : net use z: \\nomordi\nompartage)
+TRACERT Affiche les adresses de toutes les passerelles pour accédez à une destination (ex : tracert wikipédia.fr)
+ARP Permet de voir et de modifier la table ARP, correspondance MAC <-> IP des machines connectées sur le réseau.
+TELNET Telnet sur une autre machine (ex : telnet 192.168.0.1)
+NET SEND Envoi un message sur une machine sur le réseau.(ex : net send %computername% coucou)
+NSLOOKUP Permet de faire une résolution DNS, l'exemple donne les IP de Wikipédia (ex : nslookup wikipédia.org )
+FTP Lance un module FTP permettant de faire des transfert de fichiers. (ex : ftp google.com )
+REXEC Exécute des commandes sur des hôtes distants exécutant le service REXEC. Rexec authentifie l'utilisateur sur l'hôte distant avant d'exécuter la commande spécifiée.
+TFTP transfère les fichiers depuis "et" vers un ordinateur distant exécutant le service TFTP.
+RUNAS Permet d'exécuter une commande avec un compte utilisateur différent.
+NET TIME Permet de synchroniser l'horloge avec un serveur.
+MODE Permet d'afficher des informations concernant les ports COM
+NETSH Permet de configurer des interfaces réseaux.
+ROUTE Permet de gérer la table de routage de la machine locale (ex : route print )
+NBTSTAT Affiche les statistiques du protocole TCP/IP actuelles
+DEFRAG Permet de défragmenter un lecteur (ex : defrag c:)
+CHKDSK Permet de lancer un scandisk sur un disque dur
+NET START Démarre un service Windows (ex : net start sharedacces )
+CLEANMGR Permet de faire un nettoyage des disques durs.
+CONVERT Convertit des volumes FAT en volumes NTFS
+SCHTASKS Permet sous Windows XP à un administrateur de créer, supprimer, effectuer des requêtes, modifier, exécuter et mettre fin à des tâches planifiées sur un système local ou distant.
+TASKKILL Permet sous Windows XP de mettre fin à une ou plusieurs tâches ou processus. Voir TASKLIST
+TASKLIST Affiche la liste des applications et tâches ou processus associés actuellement activés sur un système à distance sous Windows XP
+SHUTDOWN Arrête ou redémarre un ordinateur local ou distant.
+BOOTCFG Configure, interroge ou modifie les paramètres du fichier boot.ini.
+DISKPART Gère des disques, des partitions ou des volumes.
+SYSTEMINFO Permet d'obtenir une foule d'information sur votre équipement.
+TYPEPERF Affiche les données du compteur de performances dans la fenêtre de commande ou dans un format de fichier journal pris en charge.
+DRIVERQUERY Recherche une liste de pilotes et de propriétés de pilotes.
+MEM Affiche des informations concernant les zones de mémoire allouées, les zones de mémoire libre et les programmes actuellement chargés en mémoire dans le sous-système MS-DOS. LABEL Les symboles ^ et & peuvent être utilisés dans les noms de volume.
+AT planifie l'exécution de commandes
+CALL Appelle un fichier batch à partir d'un autre fichier batch.(ex : ping google.fr)
+COLOR Permet de modifier les couleurs de la fenêtre MS-DOS 1chiffre le fond et le deuxième le texte (ex : color 0a affiche le texte en vert et le fond en noir)
+HOSTNAME Affiche le nom de l'ordinateur (ex : hostname )
+REG Permet de faire des interventions dans la base de registre.
+TITLE Permet de renommer la fenêtre MS-DOS (ex : title hello world!)
+TREE Représente graphiquement une arborescence de répertoires (ex : tree)
+BREAK Active ou désactive le contrôle étendu de CTRL+C.
+PROMPT Modifie l'invite de commande ( Exemple : prompt batcher! )
+> Redirection remplacement (ex : echo batcher! > titi.txt)
+>> Redirection ajout (ex : echo batcher! >> titi.txt)
+COMPACT Compresse et décompresse un fichier (ex : compact titi.txt /C )
+PAUSE Permet de stopper le traitement en cours en demandant à l'utilisateur de taper une touche pour continuer.
+IF Instaure une structure conditionnelle
+FOR permet de créer des boucles
+SET définition d'une variable %variable% pour la rappeler
+GOTO Permet d'aller à une étiquette définit dans le script via ":".
+SET VARNAME= Crée une variable.
+SETLOCAL Crée une variable locale.
+TIMEOUT Permet de créer une temporisation avec un réglage en secondes. 

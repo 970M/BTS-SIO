@@ -1,0 +1,150 @@
+* {
+    border: dotted 0.5px red;
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.header {
+    text-align: center;
+    padding: 2px;
+    background-color: olive;
+}
+/* ********************************************* */
+.container1 {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: dotted 2px yellow;
+    /* min-width: min-content; */
+    align-items: center;
+    gap: 5px 10px; /* row-gap column gap */
+    row-gap: 50px;
+    column-gap: 20px;
+}
+
+.container1 > * {
+    margin: 10px;
+    padding: 5px;
+    /* min-width: fit-content; */
+    /* overflow: hidden; */
+    /* width: 20%; */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.elem-1 {
+    background: greenyellow;
+    min-width: min-content;
+    flex-grow: 1;
+    order: 3;
+}
+
+.elem-2 {
+    background: aqua;
+    order: 2;
+    min-width: min-content;
+    width: 20%;
+    flex-grow: 3;
+}
+
+.elem-3 {
+    background: orange;
+    order: 4;
+    min-width: min-content;
+    width: 20%;
+    flex-grow: 3;
+}
+
+.elem-4 {
+    background: violet;
+    order: 1;
+    min-width: min-content;
+    /* width: 20%; */
+    /* flex-grow: 3; */
+}
+/* ********************************************* */
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+
+.article {
+    padding: 10px;
+    margin: 10px;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.ele1 {
+    background-color: aquamarine;
+}
+
+.ele2 {
+    background-color: skyblue;
+}
+
+.ele3 {
+    background-color: slateblue;
+}
+
+/* ********************************************* */
+.container3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 6px solid black;
+    height: 50%;
+    width: 50%;
+    background-color: pink;
+    left: 50%;
+    transform: translate(-50%);
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    border: 5px solid red;
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+
+    /* background-color: slateblue; */
+    /* width: 80px;
+    height: 80px; */
+    /* flex-shrink: 1; */
+}
+
+.flex-item > p {
+    align-items: center;
+    color: blue;
+}
+
+.item-1 {
+}
+
+.item-2 {
+    flex-grow: 2;
+}
+
+.item-3 {
+}
+
+.item-4 {
+    flex-grow: 1;
+}
+
+.item-5 {
+}
