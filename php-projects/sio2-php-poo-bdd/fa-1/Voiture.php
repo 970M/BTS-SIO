@@ -23,29 +23,17 @@ class Voiture
 
     // --- Couleur ---
     // un getter      
-    public function getCouleur()
-    {
-        return $this->couleur;
-    }
+    // To do ...
 
     // un setter
-    public function setCouleur($m)
-    {
-        $this->couleur = $m;
-    }
+    // To do ...
 
     // --- Immatriculation ---
     // un getter      
-    public function getImmatriculation()
-    {
-        return $this->immatriculation;
-    }
+    // To do ...
 
     // un setter 
-    public function setImmatriculation($m)
-    {
-        $this->immatriculation = $m;
-    }
+    // To do ...
 
     // un constructeur
     public function __construct($m, $c, $i)
@@ -58,11 +46,7 @@ class Voiture
     // une methode d'affichage.
     public function afficher()
     {
-        echo <<< EOT
-        <h2>Marque : $this->marque</h2>
-        <h2>Couleur : $this->couleur</h2>
-        <h2>Immatriculation : $this->immatriculation</h2>
-    EOT;
+        // To do ...
     }
 }
 
