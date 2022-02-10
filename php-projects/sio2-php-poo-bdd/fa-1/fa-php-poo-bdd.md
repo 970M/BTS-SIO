@@ -3,7 +3,7 @@
 Pour accéder à un attribut ou une fonction d’un objet, on utilise le -> au lieu du .
 Le constructeur ne porte pas le nom de la classe, mais s’appelle \_\_construct().
 
-#### 2 - Créez des getter et des setter pour $couleur et $immatriculation
+#### 2 - Créez des getter et des setter pour \$couleur et \$immatriculation
 
 L’intérêt des setter est notamment de vérifier ce qui va être écrit dans l’attribut.
 Vérifiez que l’immatriculation a ≤ 8 caractères dans le setter correspondant (sinon ne faites rien).
@@ -90,12 +90,12 @@ En reprenant du code de testVoiture.php, faites que creerVoiture.php affiche les
 
 **Astuce :** Pour éviter de taper 7 getters, 7 setters et un constructeur avec 7 arguments pour Trajet, nous allons coder :
 
--   des getters génériques **_get(\$nom_attribut)_** qui renvoient l’attribut de nom **_$nom_attribut_**. Utilisez la syntaxe suivante pour accéder à l’attribut de nom **_$nom_attribut_** de l’objet **_$objet_** :
+-   des getters génériques **_get(\$nom_attribut)_** qui renvoient l’attribut de nom **_\$nom_attribut_**. Utilisez la syntaxe suivante pour accéder à l’attribut de nom **_\$nom_attribut_** de l’objet **_\$objet_** :
 
     `$objet->$nom_attribut`
 
 -   des setters génériques **_set(\$nom_attribut, \$valeur)_** ;
-    un constructeur **_\_\_construct($data)_** qui prend un tableau dont les index correspondent aux attributs de la classe.
+    un constructeur **_\_\_construct(\$data)_** qui prend un tableau dont les index correspondent aux attributs de la classe.
 
 #### 10 - Avez-vous pensé à enregistrer vos modifications sous Git ? Faites le notamment en fin de TD pour retrouver plus facilement où vous en êtes la prochaine fois.
 
