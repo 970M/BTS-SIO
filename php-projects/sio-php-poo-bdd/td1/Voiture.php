@@ -23,17 +23,29 @@ class Voiture
 
     // --- Couleur ---
     // un getter      
-    // To do ...
+    public function getCouleur()
+    {
+        return $this->couleur;
+    }
 
     // un setter
-    // To do ...
+    public function setCouleur($m)
+    {
+        $this->couleur = $m;
+    }
 
     // --- Immatriculation ---
     // un getter      
-    // To do ...
+    public function getImmatriculation()
+    {
+        return $this->immatriculation;
+    }
 
     // un setter 
-    // To do ...
+    public function setImmatriculation($m)
+    {
+        $this->immatriculation = $m;
+    }
 
     // un constructeur
     public function __construct($m, $c, $i)
@@ -46,20 +58,10 @@ class Voiture
     // une methode d'affichage.
     public function afficher()
     {
-        // To do ...
+        echo <<< EOT
+        <h2>Marque : $this->marque</h2>
+        <h2>Couleur : $this->couleur</h2>
+        <h2>Immatriculation : $this->immatriculation</h2>
+    EOT;
     }
 }
-
-
-// $vehicule1 = new Voiture("Dacia", "Rouge", "152548");
-// $vehicule1->afficher();
-
-// // ---
-// $prenom = "Helmut";
-// echo <<< EOT
-// Texte à afficher
-// sur plusieurs lignes
-// avec caractères spéciaux \t \n
-//  et remplacement de variables $prenom
-// les caractères suivants passent : " ' $ / \ ;
-// EOT;

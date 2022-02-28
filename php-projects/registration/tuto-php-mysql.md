@@ -14,7 +14,7 @@
 
 #### 4 - Se connecter à mysql
 
-    $> mysql -u phpmyadminGD -p 0000
+    $> mysql -u phpmyadminGD -p
 
 Reconfigurer phpmyadmin :
 
